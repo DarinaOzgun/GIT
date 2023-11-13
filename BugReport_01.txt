@@ -1,8 +1,0 @@
-Bug id / Title
-Severity and Priority
-Description
-Environment
-Steps to reproduce
-Expected result
-Actual result
-Attachments (screenshots, videos, text)
