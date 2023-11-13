@@ -1,0 +1,265 @@
+JSON
+ 4. Создать внешний репозиторий c названием JSON: https://github.com/DarinaOzgun/JSON.git
+ 5. Клонировать репозиторий JSON на локальный компьютер: git clone https://github.com/DarinaOzgun/JSON.git
+ 6. Внутри локального JSON создать файл “new.json”: cd JSON
+						    touch new.json
+ 7. Добавить файл под гит: git add new.json
+ 8. Закоммитить файл: git commit -m "add new"
+ 9. Отправить файл на внешний GitHub репозиторий: git push
+ 10. Отредактировать содержание файла “new.json” - написать информацию о себе (ФИО, возраст, количество домашних животных, будущая желаемая зарплата). Всё написать в формате JSON: vim new.json -> i -> 
+																						    {
+																						     "name": "Ozgun Darina Sergeevna",
+																						     "age": 37,
+																					             "num_pets": 0,
+																						     "salary_$": 3000
+																						    }
+																						    esc -> :wq
+ 11. Отправить изменения на внешний репозиторий: git add new.json
+						 git commit -m "add new"
+						 git push 
+ 12. Создать файл preferences.json: touch preferences.json
+ 13. В файл preferences.json добавить информацию о своих предпочтениях (Любимый фильм, любимый сериал, любимая еда, любимое время года, сторона которую хотели бы посетить) в формате JSON: vim preferences.json -> i ->
+																							    {
+																						             "fav_movie": "1+1",
+																						             "fav_series": "The big bang theory",
+ 																						             "fav_food": "green olives",
+																						             "fav_season": "spring",
+																						             "country": "France"
+																						            }
+																							    esc -> :wq
+ 14. Создать файл sklls.json добавить информацию о скиллах которые будут изучены на курсе в формате JSON: vim skills.json -> i ->
+													  {
+													   "basic theory": ["testing", "bug-reports", "documentation", "SDLC", "STLC"],
+												           "Client-Server Architecture": true,
+													   "HTTP": ["methods", "HTTP response status codes", "HTTP requests and responses structures"],
+													   "JSON, XML": ["basic theory", "structure"],
+													   "API via Postman": ["JS", "Automated API Testing"],
+													   "logs": true,
+													   "Sniffing HTTP traffic": ["Chsrles", "Fiddler"],
+													   "Dev Tools": ["Google", "Chrome", "FireFox"],
+													   "VPN": true,
+													   "mobile testing": true,
+													   "Guidelines": ["iOS", "Android"],
+													   "XCode": true,
+													   "Android Studio": true,
+													   "ADB": true,
+													   "terminal Linux": true,
+													   "bash scripting": true,
+													   "remote servers access": true,
+													   "SQL": ["Create", "Delete", "Drop", "Insert Into", "Select", "From", "Where", "Join"],
+													   "Postgres": ["Installation", "Setting", "Using"],
+													   "Redis": ["Installation", "Setting", "Using"],
+													   "load testing": "Jmeter",
+													   "Scrum": true,
+													   "Test design techniques": ["Equivalence classes", "Boundary values", "Combinatorial techniques", " States and Transitions"],
+													   "Python": ["basic", "Client-server app"]
+													  }
+													  esc -> :wq
+ 15. Отправить сразу 2 файла на внешний репозиторий: git add preferences.json skills.json
+						     git commit -m "add preferences, add skills"
+						     git push
+ 16. На веб интерфейсе создать файл bug_report.json: В мастер ветке кликнуть Add file -> Create new file, дать файлу название с расширением bug_report.json
+ 17. Сделать Commit changes (сохранить) изменения на веб интерфейсе: кликнуть Commit changes 
+ 18. На веб интерфейсе модифицировать файл bug_report.json, добавить баг репорт в формате JSON: перейти в режим редактирования файла кликом на кнопку "Edit this file"
+											        {
+												 "ID": "A1",
+											         "Title": "Нажатие кнопки 'Оплатить' на главной странице не перенаправляет на страницу оплаты",
+											         "Project": "Pokupaj.com",
+											         "STR": [ 
+													 "1. Зайти на главную страницу сайта (ссылка_на_сайт)",
+											                 "2. Нажать кнопку Оплатить"
+												        ],
+											         "Environment":
+												              {
+												               "OS": "Windows 11 x64 build 21H2",
+												                "Browser": "Google Chrome v96.0.4664.45 x64"
+       													      },
+											         "Component": "Кнопка Оплатить",
+												 "Build": "0.1.1",
+											         "Actual result": "Нажатие кнопки Оплатить НЕ перенаправляет на страницу Оплаты",
+											         "Expected result": "Нажатие кнопки Оплатить перенаправляет на страницу Оплаты",
+       												 "Severity": "Critical",
+											         "Priority": "High",
+												 "Status": "Open",
+											         "Author": "Озгун Дарина Сергеевна",
+											         "Sign to": "Смелый Виктор Семенович",
+											         "Attachments": "ссылка_на_картинку_или_видео_с_багом"
+												}
+ 19. Сделать Commit changes (сохранить) изменения на веб интерфейсе: кликнуть Commit changes
+ 20. Синхронизировать внешний и локальный репозиторий JSON: git pull
+
+
+XML
+ 21. Создать внешний репозиторий c названием XML: https://github.com/DarinaOzgun/XML.git
+ 22. Клонировать репозиторий XML на локальный компьютер: cd ..
+							 git clone https://github.com/DarinaOzgun/XML.git
+ 23. Внутри локального XML создать файл “new.xml”: cd XML
+						   touch new.xml 
+ 24. Добавить файл под гит: git add new.xml
+ 25. Закоммитить файл: git commit -m "add new"
+ 26. Отправить файл на внешний GitHub репозиторий: git push
+ 27. Отредактировать содержание файла “new.xml” - написать информацию о себе (ФИО, возраст, количество домашних животных, будущая желаемая зарплата). Всё написать в формате XML: vim new.xml -> i ->
+																						  <about>
+																							<yourself>
+																							  	 <name>Ozgun Darina Sergeevna</name>
+	                   																				         <age>37</age>
+																							  	 <num_pets>0</num_pets>
+																							  	 <salary_$>3000</salary_$>
+																							</yourself>
+																						  </about>
+																						  esc -> :wq
+ 28. Отправить изменения на внешний репозиторий: git add new.xml
+						 git commit -m "add information about yourself"
+						 git push 
+ 29. Создать файл preferences.xml: touch preferences.xml
+ 30. В файл preferences.xml добавить информацию о своих предпочтениях (Любимый фильм, любимый сериал, любимая еда, любимое время года, сторона которую хотели бы посетить) в формате XML: 
+     vim preferences.xml -> i ->
+     <preferences>
+		 <preferences_2023>
+				  <fav_movie>1+1</fav_movie>
+				  <fav_series>The big bang theory</fav_series>
+				  <fav_food>green olives</fav_food>
+				  <fav_season>spring</fav_season>
+				  <country>France</country>
+		 </preferences_2023>
+     </preferences>	
+     esc -> :wq
+ 31. Создать файл sklls.xml добавить информацию о скиллах которые будут изучены на курсе в формате XML: 
+     vim skills.xml -> i ->
+     <V_Ksendzov_course>
+        	       <skills>
+                       	      <skill_0>basic theory (testing, bug-reports, documentation, SDLC, STLC)</basic_theory>
+                              <skill_1>Client-Server Architecture</skill_1>
+	       		      <skill_2>HTTP (methods, HTTP response status codes, HTTP requests and responses structures)</skill_2>
+	                      <skill_3>JSON (basic theory, structure)</skill_3>
+	                      <skill_4>XML (basic theory, structure)</skill_4>
+	       		      <skill_5>API via Postman (JS, Automated API Testing)</skill_5>	
+		      	      <skill_6>logs</skill_6>
+ 	                      <skill_7>Sniffing HTTP traffic (Chsrles, Fiddler)</skills_7>
+ 	                      <skill_8>Dev Tools (Google, Chrome, FireFox)</skill_9>
+		       	      <skill_9>VPN</skill_9>
+		              <skill_10>mobile testing</skill_10>
+		      	      <skill_11>Guidelines (iOS, Android)</skill_11>
+                              <skill_12>XCode</skill_12>
+		       	      <skill_13>Android Studio</skill_13>
+ 	                      <skill_14>ADB</skill_14>
+		       	      <skill_15>terminal Linux</skill_15>
+                              <skill_16>bash scripting</skill_16>
+		       	      <skill_17>remote servers access</skill_17>
+ 	                      <skill_18>SQL (Create, Delete, Drop, Insert Into, Select, From, Where, Join)</skill_18>
+		       	      <skill_19>Postgres (Installation, Setting, Using)</skill_19>
+		       	      <skill_20>Redis (Installation, Setting, Using)</skill_20>
+  	 	              <skill_21>load testing (Jmeter)</skill_21>
+	                      <skill_22>Scrum</skill_22>
+	                      <skill_23>Test design techniques (Equivalence classes, Boundary values, Combinatorial techniques, States and Transitions)</skill_23>
+	                      <skill_24>Python (basic, Client-server app)</skill_24>
+ 		       </skills>
+     </V_Ksendzov_course>
+     esc -> :wq
+ 32. Сделать коммит в одну строку: git add . && git commit -m "add preferences and skills"
+ 33. Отправить сразу 2 файла на внешний репозиторий: git push
+ 34. На веб интерфейсе создать файл bug_report.xml: В мастер ветке кликнуть Add file -> Create new file, дать файлу название с расширением bug_report.xml
+ 35. Сделать Commit changes (сохранить) изменения на веб интерфейсе: кликнуть Commit changes 
+ 36. На веб интерфейсе модифицировать файл bug_report.xml, добавить баг репорт в формате XML: перейти в режим редактирования файла кликом на кнопку "Edit this file"
+											      <bug_report>
+													 <ID>A1</ID>
+													 <Title>Нажатие кнопки 'Оплатить' на главной странице не перенаправляет на страницу оплаты</Title>
+													 <Project>Pokupaj.com</Project>
+													 <STR>
+													     <STR_1>1. Зайти на главную страницу сайта (ссылка_на_сайт)</STR_1>
+													     <STR_2>2. Нажать кнопку Оплатить</STR_2>
+													 </STR>
+													 <Enviroment>
+														    <OS>Windows 11 x64 build 21H2</OS>
+														    <Browser>Google Chrome v96.0.4664.45 x64</Browser>
+													 </Environment>
+													 <Component>Кнопка Оплатить</Component>
+													 <Build>0.1.1</Build>
+													 <Actual_result>Нажатие кнопки Оплатить НЕ перенаправляет на страницу Оплаты</Actual_result>
+													 <Expected_result>Нажатие кнопки Оплатить перенаправляет на страницу Оплаты</Expected_result>
+													 <Severity>Critical</Severity>
+													 <Priority>High</Priority>
+													 <Status>Open</Status>
+													 <Author>Озгун Дарина Сергеевна</Author>
+													 <Sign_to>Смелый Виктор Семенович</Sign_to>
+													 <Attachments>ссылка_на_картинку_или_видео_с_багом</Attachments>
+											      </bug_report>
+ 37. Сделать Commit changes (сохранить) изменения на веб интерфейсе: кликнуть Commit changes
+ 38. Синхронизировать внешний и локальный репозиторий XML: git pull
+
+
+TXT
+ 1. Создать внешний репозиторий c названием TXT: https://github.com/DarinaOzgun/TXT.git
+ 2. Клонировать репозиторий TXT на локальный компьютер: cd..
+							git clone https://github.com/DarinaOzgun/TXT.git
+ 3. Внутри локального TXT создать файл “new.txt”: touch new.txt
+ 4. Добавить файл под гит: git add new.txt
+ 5. Закоммитить файл: git commit -m "add new"
+ 6. Отправить файл на внешний GitHub репозиторий: git push
+ 7. Отредактировать содержание файла “new.txt” - написать информацию о себе (ФИО, возраст, количество домашних животных, будущая желаемая зарплата). Всё написать в формате TXT: vim new.txr -> i -> 
+																						 name: Ozgun Darina Sergeevna,
+																						 age: 37,
+																						 num_pets: 0,
+																						 salary_$: 3000
+																						 esc -> :wq
+ 8. Отправить изменения на внешний репозиторий: git add new.txt
+						git commit -m "add information about yourself"
+						git push
+ 9. Создать файл preferences.txt: touch preferences.txt
+ 10. В файл preferences.txt” добавить информацию о своих предпочтениях (Любимый фильм, любимый сериал, любимая еда, любимое время года, сторона которую хотели бы посетить) в формате TXT: vim preferences.txt -> i ->
+																							   fav_movie: 1+1,
+																							   fav_series: The big bang theory,
+																							   fav_food: green olives,
+																							   fav_season: spring,
+																							   country: France																											   esc -> :wq
+ 11. Создать файл sklls.txt добавить информацию о скиллах которые будут изучены на курсе в формате TXT: vim skills.txt -> i ->
+													basic theory: testing, bug-reports, documentation, SDLC, STLC,
+												        Client-Server Architecture,
+													HTTP: methods, HTTP response status codes, HTTP requests and responses structures,
+													JSON: basic theory, structure,
+													XML: basic theory, structure,
+													API via Postman: JS, Automated API Testing,
+													logs,
+													Sniffing HTTP traffic: Chsrles, Fiddler,
+													Dev Tools: Google, Chrome, FireFox,
+													VPN,
+													mobile testing,
+													Guidelines: iOS, Android,
+													XCode,
+													Android Studio,
+													ADB,
+													terminal Linux,
+													bash scripting,
+													remote servers access,
+													SQL: Create, Delete, Drop, Insert Into, Select, From, Where, Join,
+													Postgres: Installation, Setting, Using,
+													Redis: Installation, Setting, Using,
+													load testing: Jmeter,
+													Scrum,
+													Test design techniques: Equivalence classes, Boundary values, Combinatorial techniques, States and Transitions,
+													Python: basic, Client-server app
+													esc -> :wq
+ 12. Сделать коммит в одну строку: git add . && git commit -m "add preferences and skills"
+ 13. Отправить сразу 2 файла на внешний репозиторий: git push
+ 14. На веб интерфейсе создать файл bug_report.txt: В мастер ветке кликнуть Add file -> Create new file, дать файлу название с расширением bug_report.txt
+ 15. Сделать Commit changes (сохранить) изменения на веб интерфейсе: кликнуть Commit changes 
+ 16. На веб интерфейсе модифицировать файл bug_report.txt, добавить баг репорт в формате TXT: перейти в режим редактирования файла кликом на кнопку "Edit this file"
+											      ID: A1
+											      Title: Нажатие кнопки 'Оплатить' на главной странице не перенаправляет на страницу оплаты
+											      Project: Pokupaj.com
+											      STR: 1. Зайти на главную страницу сайта (ссылка_на_сайт)
+											           2. Нажать кнопку Оплатить
+											      Environment: OS: Windows 11 x64 build 21H2
+												           Browser: Google Chrome v96.0.4664.45 x64
+       											      Component: Кнопка Оплатить
+											      Build: 0.1.1
+											      Actual result: Нажатие кнопки Оплатить НЕ перенаправляет на страницу Оплаты
+											      Expected result: Нажатие кнопки Оплатить перенаправляет на страницу Оплаты
+       											      Severity: Critical
+											      Priority: High
+											      Status: Open
+											      Author: Озгун Дарина Сергеевна
+											      Sign to: Смелый Виктор Семенович
+											      Attachments: ссылка_на_картинку_или_видео_с_багом 
+ 17. Сделать Commit changes (сохранить) изменения на веб интерфейсе: кликнуть Commit changes
+ 18. Синхронизировать внешний и локальный репозиторий TXT: git pull
